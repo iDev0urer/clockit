@@ -1,0 +1,25 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.parallax-background {
+	background-image: image-url('parallax-bg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	height: 300px;
+	box-shadow: -2px -2px 4px #8A8A8A;
+
+	.center-head {
+		position: relative;
+		top: 40%;
+
+		h1 {
+			text-align: center;
+			color: #fff;
+			font-size: 5rem;
+			text-shadow: 2px 2px 5px #AAAAAA;
+		}
+	}
+
+}
