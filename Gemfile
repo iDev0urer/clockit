@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use passenger for the server
-gem 'passenger'
+gem 'puma'
 
 # Devise for authentication and CanCan for authorization
 gem 'devise'

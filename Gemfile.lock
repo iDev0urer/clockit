@@ -146,12 +146,11 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
-    passenger (5.0.6)
-      rack
-      rake (>= 0.8.1)
     pg (0.18.1)
     polyamorous (1.1.0)
       activerecord (>= 3.0)
+    puma (2.11.1)
+      rack (>= 1.1, < 2.0)
     rack (1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -257,8 +256,8 @@ DEPENDENCIES
   less-rails
   namecase
   paperclip
-  passenger
   pg
+  puma
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
